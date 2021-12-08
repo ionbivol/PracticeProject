@@ -20,15 +20,21 @@ public class Program {
         printPayments(payments);
         chancePaymentIsSuccess(payments);
         printPayments(payments);
+        changePaymentIsCancel(payments);
+        changePaymentIsCancel(payments);
+        printPayments(payments);
 
     }
 
-//    private static void changePaymentID(List<Payment> payments) {
-//        List<Payment> changePaymentId = new ArrayList<>();
-//        for (Payment payment : payments){
-//            if(payment.getId() )
-//        }
-//    }
+    private static void changePaymentIsCancel(List<Payment> payments) {
+
+        for(Payment payment : payments){
+            if(payment.getId()==2){
+                payment.setCancel(true);
+            }
+        }
+    }
+
 
     private static void chancePaymentIsSuccess(List<Payment> payments) {
 
