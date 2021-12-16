@@ -1,4 +1,5 @@
 package ion.codewars;
+import java.util.Arrays;
 import java.util.stream.IntStream;
 
 public class FizzBuzz {
@@ -30,5 +31,15 @@ public class FizzBuzz {
         }
 
     }
+
+//    public static String streamFizzBuzz(int count){
+//
+//        int[] arrayNumbers = IntStream.range(1, count + 1).toArray();
+//
+//        Arrays.stream(arrayNumbers).peek()
+//
+//        })
+//
+//    }
 
 }
